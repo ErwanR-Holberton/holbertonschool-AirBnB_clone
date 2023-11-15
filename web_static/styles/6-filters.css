@@ -1,0 +1,55 @@
+.container section.filters {
+	background: #FFFFFF;
+	height: 70px;
+	width: 100%;
+	border: solid 1px #DDDDDD;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+}
+.locations {
+	border-right: solid 1px #DDDDDD;
+}
+.locations, .amenities {
+	height: 100%;
+	width: 25%;
+}
+section.filters h3 {
+	font-weight: 600;
+	height: 50%;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+section.filters h4 {
+	font-weight: 400;
+	font-size: 14px;
+	height: 50%;
+	margin-left: 20px;
+}
+.locations .popover,
+.amenities .popover{
+	z-index: 3;
+	position: relative;
+	list-style: none;
+	display: none;
+	padding: 20px;
+	background-color: #FAFAFA;
+	border: solid 1px #DDDDDD;
+}
+li {
+	margin: 5px;
+}
+.locations .popover li ul,
+.amenities .popover li ul {
+	margin: 20px;
+	list-style: none;
+}
+.amenities:hover .popover,
+.locations:hover .popover {
+	display: block;
+}
+h2 {
+	font-size: 16px;
+}
