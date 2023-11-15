@@ -1,0 +1,54 @@
+.places {
+<<<<<<< HEAD
+	display: flex;
+	flex-wrap: wrap;
+}
+.places h1{
+	flex-basis: 100%;
+	font-size: 30px;
+	margin: 30px;
+}
+.places article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px auto;
+	border: solid 1px #FF5A5F;
+	border-radius: 4px;
+}
+.places article h2 {
+	font-size: 30px;
+	text-align: center;
+=======
+	margin: 30px auto;
+	max-width: 1000px;
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.places h1 {
+	font-size: 30px;
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.places h2 {
+	font-size: 30px;
+	margin: auto;
+	width: 50%;
+}
+
+.places article {
+	display: flex;
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: solid 1px #FF5A5F;
+	border-radius: 4px;
+	justify-content: center;
+>>>>>>> 9ebfa297b5d0ee7c3ac2de5989164164285b5acf
+}

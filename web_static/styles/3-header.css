@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+body header {
+	background-color: #FFFFFF;
+	height: 70px;
+	width: 100%;
+	border-bottom: solid 1px #CCCCCC;
+	display: flex;
+}
+div.logo {
+	width: 142px;
+	height: 60px;
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	align-self: center;
+	margin-left: 20px;
+=======
+header {
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	background-image: url("../images/logo.png");
+	background-position: left 20px top 50%;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+>>>>>>> 9ebfa297b5d0ee7c3ac2de5989164164285b5acf
+}
