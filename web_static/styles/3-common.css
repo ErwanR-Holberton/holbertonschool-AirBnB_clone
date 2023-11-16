@@ -1,20 +1,7 @@
-<<<<<<< HEAD
 body {
 	margin: 0;
 	padding: 0;
 	color: #484848;
 	font-size: 14px;
 	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-
-=======
-@import url("./3-header.css");
-@import url("./3-footer.css");
-
-body {
-	color: #484848;
-	font-size: 14px;
-	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;;
-	text-align: center;
-	line-height: 60px;
->>>>>>> 9ebfa297b5d0ee7c3ac2de5989164164285b5acf
 }

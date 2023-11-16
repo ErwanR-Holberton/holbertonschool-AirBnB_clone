@@ -1,19 +1,12 @@
-<<<<<<< HEAD
 .container section.filters {
 	background: #FFFFFF;
-=======
-.filters {
-	display: flex;
-	background-color: white;
->>>>>>> 9ebfa297b5d0ee7c3ac2de5989164164285b5acf
+
 	height: 70px;
 	width: 100%;
 	border: solid 1px #DDDDDD;
 	border-radius: 4px;
-<<<<<<< HEAD
 	display: flex;
 	align-items: center;
-=======
 	align-items: center;
 	justify-content: center;
 	position: relative;
@@ -33,5 +26,4 @@ button {
 
 button:hover {
 	opacity: 90%;
->>>>>>> 9ebfa297b5d0ee7c3ac2de5989164164285b5acf
 }

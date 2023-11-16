@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 body {
 	margin: 0;
 	padding: 0;
-=======
-@import url("./2-header.css");
-@import url("./2-footer.css");
-body {
-	text-align: center;
-	line-height: 60px;
->>>>>>> 9ebfa297b5d0ee7c3ac2de5989164164285b5acf
 }
